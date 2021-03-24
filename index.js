@@ -4,7 +4,7 @@ import NodeCache from "node-cache";
 import Cache from "./api/Cache";
 import CustomDate from "./api/GetDate";
 
-//create cache
+//cache doesnt persist if the server is closed
 export const myCache = new NodeCache({ stdTTL: 100, checkperiod: 120 });
 const cache = new Cache();
 
