@@ -1,2 +1,3 @@
 run `npm install`
+run `npm install @babel/core @babel/node @babel/preset-env nodemon --save-dev`
 then run `npm run start`
