@@ -3,7 +3,7 @@ class Cache {
   constructor() {}
   //this saves the photos in the cache
   cachePhotos(photos) {
-    myCache.set("photos", photos,10000);
+    myCache.set("photos", photos, 10000);
   }
   //this returns the photos from the cache
   getPhotos() {
@@ -11,4 +11,4 @@ class Cache {
   }
 }
 
-export default Cache
+export default Cache;

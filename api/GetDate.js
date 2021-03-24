@@ -1,6 +1,5 @@
 class CustomDate {
-  constructor() {
-  }
+  constructor() {}
 
   //returns the year month and date user input amount of days from today
   getYMD(days) {
@@ -16,4 +15,4 @@ class CustomDate {
   }
 }
 
-export default CustomDate
+export default CustomDate;
